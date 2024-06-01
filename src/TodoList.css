@@ -1,0 +1,58 @@
+.todo-list {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.task-input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.task-input button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.task-actions button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  width: 100px;
+}
+
+.tasks {
+  list-style: none;
+  padding: 0;
+}
+
+.tasks li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.tasks li.completed span {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.tasks li div {
+  display: flex;
+}
+
+.tasks li button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  margin-left: 5px;
+}
